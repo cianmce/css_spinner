@@ -1,4 +1,14 @@
-body{
-  font-size:300%;
-  color:red;
+
+.cspinner{
+  cursor:pointer;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+.cspinner:hover {
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+    width:90px;
+}
+
+.history{
+  width:80px;
 }
